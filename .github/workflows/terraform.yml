@@ -27,7 +27,7 @@ jobs:
 
 
 
-   #sample commit
+   #sample commits
     - name: Terraform Init
       run: terraform init -reconfigure
       env:
