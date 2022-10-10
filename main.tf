@@ -10,6 +10,7 @@ location = "us-central1"
   
 
 }
+#multi buckets creation
 
 resource "google_storage_bucket" "bucket_08" {
 
