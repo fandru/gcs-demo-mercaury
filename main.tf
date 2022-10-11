@@ -41,6 +41,7 @@ resource "google_storage_bucket" "data_engine_storage" {
 
 
 resource "google_service_account" "mercaury_backend_enginneers" {
+  project = "mytasks-362509"
   account_id   = "backendserviceaccount"
   display_name = "A service account for backend that only mentioned users can use"
 }
@@ -58,6 +59,7 @@ resource "google_service_account_iam_binding" "admin-account-iam" {
 
 
 resource "google_service_account" "mercaury_frontend_enginneers" {
+  project = "mytasks-362509"
   account_id   = "frontendserviceaccount"
   display_name = "A service account frontend that only mentioned users can use"
 }
@@ -75,6 +77,7 @@ resource "google_service_account_iam_binding" "security-account-iam" {
 
 
 resource "google_service_account" "mercaury_data_engineers" {
+  project = "mytasks-362509"
   account_id = "dataengineersserviceaccount"
   display_name = "A service account for data_engineers that only mentioned users can use"
   
