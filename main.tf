@@ -87,7 +87,7 @@ resource "google_service_account_iam_binding" "service_account_deleter" {
 
   members = [
     "user:keerthana@gmail.com",
-    "user:aravindh@gmail.com",
+    "user:aravindh@gmail.com",  
   ]
   
 }
