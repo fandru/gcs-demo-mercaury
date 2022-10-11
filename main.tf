@@ -78,7 +78,7 @@ resource "google_service_account_iam_binding" "security-account-iam" {
 
 resource "google_service_account" "mercaury_data_engineers0003" {
   project = "mytasks-362509"
-  account_id = "dataengineersserviceaccount0003"
+  account_id = "dataenginerserviceaccount0003"
   display_name = "A service account for data_engineers that only mentioned users can use"
   
 }
